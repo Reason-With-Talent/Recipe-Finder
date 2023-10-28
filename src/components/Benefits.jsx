@@ -80,9 +80,14 @@ const Benefits = () => {
                     <div>
                         <img src={Chef} className="hidden md:grid" />
                         <div className="bg-[url('assets/IMG/Pick.svg')] md:bg-cover bg-no-repeat bg-center w-[100%] rounded-2xl md:h-[370px] h-[300px] mt-[30px]">
-                         <span>
-                            <button>Start Cook</button>
-                         </span>
+                            <span className="flex justify-between md:px-[60px] px-[20px] pt-[25px] md:pt-[40px]">
+                                <img src={Like} />
+                                <button className="bg-[#F6B100] text-[#FFFFFF] text-[13px] font-normal p-[5px] rounded-lg">Start Cook</button>
+                            </span>
+                            <div className="mt-[150px] pl-[20px] md:pl-[60px]">
+                                <h2 className="text-[#FFFFFF] font-medium text-[20px] md:text-[25px] mb-[5px]">Weekly pick</h2>
+                                <p className="text-[#FFFFFF] text-[14px] font-normal md:w-[35%] w-[50%] ">This pumpkin cream soup will warm up the feintest of hearts.</p>
+                            </div>
                         </div>
                     </div>
 
